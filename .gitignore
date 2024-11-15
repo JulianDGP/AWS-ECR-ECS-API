@@ -1,0 +1,42 @@
+# Archivos y directorios de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.venv/
+venv/
+
+# Salida de AWS CDK
+cdk.out/
+
+# Archivos de log
+*.log
+
+# Archivos de configuración local
+.env
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Otros archivos temporales
+*.tmp
+*.bak
+*.swp
+
+# Imágenes de Docker (si aplicable)
+*.tar
+
+# Archivos de Python egg
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Archivos de caché de tests
+.pytest_cache/
+
+# Configuraciones de IDEs (por si usas alguno)
+.vscode/
+.idea/
